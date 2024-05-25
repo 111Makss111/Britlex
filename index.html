@@ -8,92 +8,97 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./css/styles.css">
-  <title>Document</title>
+  <title>Brit</title>
 </head>
 
 <body>
   <!-- ----------------header------------------ -->
-  <header class="header">
-    <nav class="header-navigation">
+  <header class="header conatainer">
+    <div class="header-container">
       <a class="header-logo" href="">Brit<span class="header-logo-white">lex</span></a>
-      <ul class="header-list">
-        <li class="herader-list-item">
-          <a class="header-list-link" href="./index.html">Home</a>
-        </li>
-        <li class="herader-list-item">
-          <a class="header-list-link" href="#Skills">Skills</a>
-        </li>
-        <li class="herader-list-item">
-          <a class="header-list-link" href="#About Us">About Us</a>
-        </li>
-        <li class="herader-list-item">
-          <a class="header-list-link" href="#Pricing">Pricing</a>
-        </li>
-        <li class="herader-list-item">
-          <a class="header-list-link" href="">Contacts</a>
-        </li>
-      </ul>
-    </nav>
-    <button class="header-btn" type="button">Lets Talk</button>
+      <nav class="header-navigation">
+        <ul class="header-list">
+          <li class="herader-list-item">
+            <a class="header-list-link" href="./index.html">Home</a>
+          </li>
+          <li class="herader-list-item">
+            <a class="header-list-link" href="#Skills">Skills</a>
+          </li>
+          <li class="herader-list-item">
+            <a class="header-list-link" href="#About Us">About Us</a>
+          </li>
+          <li class="herader-list-item">
+            <a class="header-list-link" href="#Pricing">Pricing</a>
+          </li>
+          <li class="herader-list-item">
+            <a class="header-list-link" href="">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header-btn" type="button">Lets Talk</button>
+    </div>
   </header>
   <!-- ----------------header------------------ -->
   <main>
-    <section>
-      <h1>Learn Any Foreign Language</h1>
-      <p>
-        With our teachers who write a program for each student, you will be
-        able to make your first sketch after the first lesson.
-      </p>
-      <button type="button">Get started</button>
-      <img src="./images/learning-languages.jpg" width="654" height="510" alt="girl_answer" />
+    <!-- ----------------hero------------------ -->
+    <section class="hero-section">
+      <div class="hero">
+        <h1 class="hero-title">Learn <br>Any Foreign Language</h1>
+        <p class="hero-text">
+          With our teachers who write a program for each student, you will be
+          able to make your first sketch after the first lesson.
+        </p>
+        <button class="hero-button" type="button">Get started</button>
+      </div>
+      <img class="hero-img" src="./images/learning-languages.jpg" width="654" height="510" alt="girl_answer" />
     </section>
-    <section>
-      <h2 id="Skills">Skills</h2>
-      <ul>
-        <li>
-          <img src="./images/Shared-goals-bro.jpg" width="390" height="390" alt="speaking_friend" />
-          <h3>Speaking</h3>
-          <p>
-            Improve your English skills and confidence. Live classes and
-            interactive lessons online. 20% extra free for a limited time only
-          </p>
+    <!-- ----------------skills------------------ -->
+    <section class="skills-section">
+      <div class="skills-list" style="grid-row: span 2;">
+        <!-- Блок 1 -->
+        <img class="skills-img" src="./images/Shared-goals-bro.jpg" width="390" height="390" alt="speaking_friend" />
+        <h3 class="-skills-title-text">Speaking</h3>
+        <p class="skills-text">
+          Improve your English skills and confidence. Live classes and
+          interactive lessons online. 20% extra free for a limited time only
+          <br>
+          <br>
+          English online and improve your skills through our high-quality
+          courses and resources – all designed for adult language learners.
+        </p>
+        <button class="skills-btn" type="button">Get started</button>
+      </div>
+      <div class="skills-list" style="grid-row: span 1; grid-column: span 2;">
+        <!-- Блок 2 та Блок 3 -->
+        <img class="skills-img" src="./images/Typewriter-bro.jpg" width="390" height="264" alt="writing" />
+        <h3 class="-skills-title-text">Writing</h3>
+        <p class="skills-text">
+          One of the most important and extensive areas of natural science,
+          the science that studies substances, also their composition
+        </p>
+        <button class="skills-btn" type="button">Learn more</button>
+      </div>
+      <div class="skills-list" style="grid-row: span 1; grid-column: span 1;">
+        <!-- Блок 4 -->
+        <img class="skills-img" src="./images/Podcast-audience-bro.jpg" alt="Listening" />
+        <h3 class="-skills-title-text">Listening</h3>
+        <p class="skills-text">
+          Here you can find activities to practise your listening skills.
+          Listening will help you to improve your understanding
+        </p>
+        <button class="skills-btn" type="button">Learn more</button>
+      </div>
+    </section>
 
-          <p>
-            English online and improve your skills through our high-quality
-            courses and resources – all designed for adult language learners.
-          </p>
-          <button type="button">Get started</button>
-        </li>
-        <li>
-          <img src="./images/Typewriter-bro.jpg" width="390" height="264" alt="writing" />
-          <h3>Writing</h3>
-          <p>
-            One of the most important and extensive areas of natural science,
-            the science that studies substances, also their composition
-          </p>
-          <button type="button">Learn more</button>
-        </li>
-        <li>
-          <img src="./images/House-bookshelves-bro.jpg" width="390" height="264" alt="Reading" />
-          <h3>Reading</h3>
-          <p>
-            Perception and response actions of the user resulting from the use
-            and/or upcoming use of the product, system or service
-          </p>
-          <button type="button">Learn more</button>
-        </li>
-        <li>
-          <img src="./images/Podcast-audience-bro.jpg" alt="Listening" />
-          <h3>Listening</h3>
-          <p>
-            Here you can find activities to practise your listening skills.
-            Listening will help you to improve your understanding
-          </p>
-          <button type="button">Learn more</button>
-        </li>
-      </ul>
-    </section>
-    <section>
+
+
+
+
+
+
+
+    <!-- ----------------about------------------ -->
+    <section class="about-section">
       <h2 id="About Us">About Us</h2>
       <p>
         The model offers a framework for discussing problems related to the
